@@ -85,9 +85,7 @@ public class ChooseAppActivity extends Activity {
 			//AppInfo tmp = getItem(position);
 			item.title.setText(getItem(position).label);
 			item.image.setImageDrawable(getItem(position).icon);
-//			item.toggle.setTag(position);//��������Ҫ�Ż�������Ҫ����
-			
-			//setOnCheckedChangeListener���ã�������״̬��query֮ǰ����������ף�ԭ��δ֪���ܿ�����OnCheckedChangeListener��ʵ�ֹ���У����¼��״̬��
+
 			item.toggle.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 						@Override
 						public void onCheckedChanged(CompoundButton btnView,
